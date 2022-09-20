@@ -1,0 +1,28 @@
+body{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #B7C4CF;
+}
+
+h3{
+    color: #967E76;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    size: 36px;
+    letter-spacing: 8px;
+}
+
+p{
+    size: 16px ;
+}
+
+
+
+
+
+#headpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
