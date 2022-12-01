@@ -1,0 +1,77 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.bigFatContainer {
+  width: 100%;
+  margin: 0 0;
+}
+
+/*---------------- page setting --------------*/
+.Page {
+  margin: 0 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(251, 250, 205);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#helloPage {
+  /* background-color: #BA94D1; */
+}
+
+/*------------------ nav bar ----------------*/
+.nav {
+  position: fixed;
+  right: 20px;
+  top: 35%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  background-color: #ba94d1;
+  height: 20vh;
+  width: max-content;
+  border-radius: 25px;
+  padding: 20px 10px;
+  justify-content: space-evenly;
+}
+
+.navBTN {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: -10px -6px 36px -8px rgba(97, 97, 97, 0.39);
+}
+.navBTN a:link,
+a:hover,
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+/* -------------hello page------------------- */
+.helloText {
+  color: #7f669d;
+}
+
+.myPic {
+  width: 250px;
+}
+
+
+.squre {
+  background-color: darkorange;
+  width: 250px;
+}
+
+.ProfilePic {
+  width: 250px;
+}
